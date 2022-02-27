@@ -10,5 +10,5 @@ phases:
             - echo Build completed on 'date'
 artifacts:
     files:
-      - target/myjava-app-1.0.jar    
+      - target/MyMavenApp Maven Webapp.jar   
             
