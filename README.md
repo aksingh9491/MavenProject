@@ -1,2 +1,3 @@
 # MyMavenApp
-Sample Project to demostrate Jenkins which can be accesible over browser.
+Sample java code to build with buildspec file given for Code Build
+
