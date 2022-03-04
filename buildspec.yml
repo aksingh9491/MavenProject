@@ -1,10 +1,15 @@
 version: 0.2
 
 phases: 
+    install:
+        commands:
+            - echo "Enter the install phase on 'date'"
+            - apt-get update -y
+            - apt-get install -y maven  
     build:
         commands:
-            - echo Build started on 'date'
-            - mvn clean package
+            - echo "Enter the Buld phase on 'date'"
+            - mvn install  
     post_build:
         commands:
             - echo Build completed on 'date'
